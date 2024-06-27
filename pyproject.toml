@@ -10,6 +10,7 @@ python = "^3.10"
 looker-sdk = "^24.10.0"
 pandas = "^2.2.2"
 pandas-gbq = "^0.23.1"
+vertexai = "^1.49.0"
 
 
 [build-system]

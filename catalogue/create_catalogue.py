@@ -19,6 +19,7 @@ def get_dashboard_catalog(looker_sdk_instance=None):
     for r in responses}
     return dashboard_catalog
 
+
 def create_update_catalog(catalog):
     """Updates the dashboard catalog BigQuery table.
 
