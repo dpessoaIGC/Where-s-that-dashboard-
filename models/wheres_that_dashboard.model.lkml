@@ -2,7 +2,7 @@
 connection: "lookerdata"
 
 # include all the views
-include: "/views/**/*.view.lkml"
+# include: "/views/**/*.view.lkml"
 
 # Datagroups define a caching policy for an Explore. To learn more,
 # use the Quick Help panel on the right to see documentation.
@@ -18,6 +18,7 @@ persist_with: wheres_that_dashboard_default_datagroup
 # relationships between fields. By joining a view into an Explore, you make those
 # fields available to users for data analysis.
 # Explores should be purpose-built for specific use cases.
+<<<<<<< HEAD
 
 # To see the Explore you’re building, navigate to the Explore menu and select an Explore under "Wheres That Dashboard"
 explore: dashboard_catalog {}
@@ -80,3 +81,5 @@ explore: product_sheets {
 }
 
 explore: users {}
+=======
+>>>>>>> branch 'dev-elena-gillis-ysxc' of https://github.com/dpessoaIGC/Where-s-that-dashboard-
