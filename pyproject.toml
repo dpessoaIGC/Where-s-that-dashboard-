@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "looker-dashboard-catalog"
+version = "0.1.0"
+description = ""
+authors = ["dpessoa <delphine.pessoa@unbabel.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+looker-sdk = "^24.10.0"
+pandas = "^2.2.2"
+pandas-gbq = "^0.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
