@@ -2,7 +2,7 @@
 view: dashboard_catalog {
   derived_table: {
    sql: select *
-      from `queryable-dashboard-catalog.dashboard_catalog.dashboard_catalog`;;
+      from `queryable-dashboard-catalog.dashboard_query_results.dashboard_catalog`;;
   }
 
   # measure: count {
